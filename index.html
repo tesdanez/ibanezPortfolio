@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="icon/font/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Play|Righteous|Roboto+Condensed|Squada+One|Turret+Road&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Dancing+Script|Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+</head>
+<body>
+<!-- navigation -->
+    <div id="toggle"> <img src="img/btn1.png" class="menu"> </div>
+    <nav class="container" >
+        <div class="nav-logo" ><a href="#">AI.CV</a></div>
+        <ul>
+            <li> <a href="#"><span>HOME</span></a> </li>
+            <li> <a href="#scroll-aboutBox">ABOUT</a> </li>
+            <li> <a href="#scroll-skillsBox">SKILLS</a> </li>
+            <li> <a href="#scroll-contactsBox">CONTACTS</a> </li>
+            <li> <a href="#scroll-worksBox">WORKS</a> 
+            <!-- Drop Down -->
+                <ul>
+                    <li> <a href="http://localhost/home/games.php">GAMES</a> </li>
+                    <li> <a href="http://localhost/home/blog.php">WEBSITES</a> </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+<!-- End of Navigation -->
+<!-- Side Menu -->
+    <section>
+        <div class="side-menu">
+            <div class="side-menu-left">
+                 <ul>
+                    <li> <i class="fas fa-home fa-sm"></i><a href="#">HOME </a> </li>
+                    <li> <i class="fas fa-user-circle fa-xl"></i><a href="#scroll-aboutBox">ABOUT</a> </li>
+                    <li> <i class="fas fa-user-cog fa-sm"></i><a href="#scroll-skillsBox">SKILLS</a> </li>
+                    <li> <i class="fas fa-briefcase"></i><a href="#scroll-worksBox">WORKS</a> 
+                    <li> <i class="far fa-address-card fa-sm"></i><a href="#scroll-contactsBox">CONTACTS</a> </li>
+                </ul>
+            </div>
+            <!-- SIDE MENU RIGHT -->
+            <div class="side-menu-right">
+                <div class="side-menu-right-title">
+                    <h2>Hi</h2>
+                    <h1>I'm <span>ADRIAN</span></h1>
+                    <p id="smr_p">Kape. Kamatis. Kalabasa, Kalamansi, Kasoy</p> <br> <br>
+                    <a href="#scroll-aboutBox" class="side-menu-btn"> Get Started</a>
+                 </div>
+                <!-- BOX ABOUT HERE -->
+                <div class="box-about" id="scroll-aboutBox">
+                    <p class="side_p">ABOUT</p>
+                    <h1 class="title">Who I Am</h1> <br>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus atque fugiat iure animi maxime magni. Consequatur praesentium magnam delectus accusantium, dolorem numquam dolores alias officia voluptatem? Consequuntur delectus incidunt architecto.</p>
+                    
+                    <div class="box-style">
+                        <div class="box1">
+                            <div class="box1-menu">
+                                <ul>
+                                    <li id="gds"><a href="#" id="GD">  GRAPHIC DESIGN </a></li>
+                                    <li><a href="#" id="II">INNOVATIVE IDEAS</a></li>
+                                    <li><a href="#" id="SO">SOFTWARES</a></li>
+                                    <li><a href="#" id="AP">APPLICATION</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box2">
+                             <!-- BOX FADE AND CHANGE AFTER HOVER -->
+                            <div class="box2-change-gd">                               
+                                <div class="box2-title">
+                                    <p class="box2-p">Graphic Design</p>
+                                </div>
+                                <div class="box2-body">
+                                    <div class="body-p">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam consequuntur esse autem voluptates ex eveniet delectus corrupti inventore quod, cum temporibus ea iusto assumenda numquam dolore officia hic sint.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box2-change-II">                               
+                                <div class="box2-title">
+                                    <p class="box2-p">Innovative Ideas</p>
+                                </div>
+                                <div class="box2-body">
+                                    <div class="body-p">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam consequuntur esse autem voluptates ex eveniet delectus corrupti inventore quod, cum temporibus ea iusto assumenda numquam dolore officia hic sint.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box2-change-SO">                               
+                                <div class="box2-title">
+                                    <p class="box2-p">Software</p>
+                                </div>
+                                <div class="box2-body">
+                                    <div class="body-p">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam consequuntur esse autem voluptates ex eveniet delectus corrupti inventore quod, cum temporibus ea iusto assumenda numquam dolore officia hic sint.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="box2-change-AP">                               
+                                <div class="box2-title">
+                                    <p class="box2-p">Application</p>
+                                </div>
+                                <div class="box2-body">
+                                    <div class="body-p">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam consequuntur esse autem voluptates ex eveniet delectus corrupti inventore quod, cum temporibus ea iusto assumenda numquam dolore officia hic sint.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BOX SKILLS HERE -->
+                <div class="box-skills" id="scroll-skillsBox">
+                    <p class="side_p">MY SKILLS</p> <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus labore quae ea! Laborum magnam officia rem. Sunt, nisi facilis. Pariatur, provident! Omnis, quo atque iure eum fugiat illum sit officiis?</p>
+                    <div class="box-skills-style">
+                        <div class="bar-style">
+
+                            <div class="bar1 bstyle">
+                                <div class="bar1-box1">
+                                   <div class="bar-title">
+                                        <p class="boxp">HTML</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                       <div class="box-scroll">
+                                            <div class="live-scroll">
+                                            </div>
+                                       </div>    
+                                       <div class="Cprog">
+                                            <p class="count">80</p>
+                                        </div>                                    
+                                   </div>
+                                </div>
+                                <div class="bar1-box2">
+                                    <div class="bar-title">
+                                        <p class="boxp">CSS</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                        <div class="box-scroll">
+                                            <div class="live-scroll" style="width:90%;">
+                                            </div>
+                                        </div>  
+                                        <div class="Cprog">
+                                            <p class="count">90</p>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+
+                            <div class="bar2 bstyle" >
+                            <div class="bar1-box1">
+                                   <div class="bar-title">
+                                        <p class="boxp">JS</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                       <div class="box-scroll">
+                                             <div class="live-scroll" style="width:70%;">
+                                            </div>
+                                       </div>
+                                       <div class="Cprog">
+                                            <p class="count">70</p>
+                                        </div>
+                                   </div>
+                                </div>
+                                <div class="bar1-box2">
+                                    <div class="bar-title">
+                                        <p class="boxp">JQUERY</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                        <div class="box-scroll">
+                                             <div class="live-scroll" style="width:80%;">
+                                            </div>
+                                        </div>  
+                                        <div class="Cprog">
+                                            <p class="count">80</p>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="bar3 bstyle">
+                            <div class="bar1-box1">
+                                   <div class="bar-title">
+                                        <p class="boxp">PHP</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                       <div class="box-scroll">
+                                             <div class="live-scroll" style="width:80%;">
+                                             </div>
+                                       </div> 
+                                       <div class="Cprog">
+                                            <p class="count">80</p>
+                                        </div>
+                                   </div>
+                                </div>
+                                <div class="bar1-box2">
+                                    <div class="bar-title">
+                                        <p class="boxp">BOOTSTRAP</p>
+                                   </div>
+                                   <div class="bar-desc">
+                                        <div class="box-scroll">
+                                            <div class="live-scroll" style="width:70%;">
+                                            </div>
+                                        </div> 
+                                        <div class="Cprog">
+                                            <p class="count">75</p>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WHAT I DO -->
+                <div class="box-works">
+                    <p class="side_p">What I Do</p> <br>
+                    <p style="font-size:18px; font-family: 'Abel', sans-serif;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus labore quae ea! Laborum magnam officia rem. Sunt, nisi facilis. Pariatur, provident! Omnis, quo atque iure eum fugiat illum sit officiis?</p> <br>
+                    <div class="box-works-style">
+                        <div class="card1">
+
+                            <div class="con-box">
+                                <div class="inner-box">
+                                    <div class="front">
+                                        <P class="p_font"><i class="fas fa-layer-group"></i></P> <br>
+                                        <p class="p_font" style="font-size:15px;">GRAPHIC DESIGN</p> <br>
+                                        <p class="flip-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, quos tempora error.</p>
+                                    </div>
+
+                                    <div class="back">
+                                        <P><i class="fas fa-layer-group"></i></P> <br>
+                                        <p class="b_par">GRAPHIC DESIGN</p> <br> <br> <br> <br>
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card2">
+                            
+                            <div class="con-box">
+                                <div class="inner-box">
+                                    <div class="front">
+                                        <P class="p_font"><i class="fas fa-mobile-alt"></i></i></P> <br>
+                                        <p class="p_font" style="font-size:15px;">MOBILE DESIGN</p> <br>
+                                        <p class="flip-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, quos tempora error.</p>
+                                    </div>
+
+                                    <div class="back">
+                                        <P><i class="fas fa-mobile-alt"></i></i></P> <br>
+                                        <p class="b_par">MOBILE DESIGN</p> <br> <br> <br> <br>
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card3">
+                            
+                             <div class="con-box">
+                                <div class="inner-box">
+                                    <div class="front">
+                                        <P class="p_font"><i class="fas fa-search"></i></i></P> <br>
+                                        <p class="p_font" style="font-size:15px;">RESEARCH</p> <br>
+                                        <p class="flip-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, quos tempora error.</p>
+                                    </div>
+
+                                    <div class="back">
+                                        <P><i class="fas fa-search"></i></i></P> <br>
+                                        <p class="b_par">RESEARCH</p> <br> <br> <br> <br>
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BOX WORKS HERE -->
+                <div class="works-title" id="scroll-worksBox">
+                    <p class="side_p">WORKS</p> <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus labore quae ea! Laborum magnam officia rem. Sunt, nisi facilis. Pariatur, provident! Omnis, quo atque iure eum fugiat illum sit officiis?</p>
+                    <div class="box-works-2">
+                        <div class="box-works-2-style">
+                            <div class="dist">
+                                <div class="image">
+                                    <p>MY GAMES SITE</p> 
+                                    <img src="img/game.png" alt=""> <br> <br> <br>
+                                    <a href="http://localhost/home/games.php">View Page</a>
+                                </div>
+
+                                <div class="image2">
+                                    <p>BLOG SITE</p>
+                                    <img src="img/blog.png" alt="">  <br> <br> <br>
+                                    <a href="http://localhost/home/blog.php">View Page</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- BOX CONTACT HERE -->
+                <div class="box-contact" id="scroll-contactsBox">
+                    <div class="contact-style">
+
+                        <div class="sep">
+                            <div class="content1">
+                                <p class="fnt">CONTACTS</p>
+                            </div>   
+                            <div class="mul-box">
+                                    <div class="mul1">
+                                        <i class="fas fa-at"></i>
+                                        <i class="fas fa-map-marked-alt"></i>
+                                        <i class="fas fa-phone-alt"></i>
+                                        
+                                    </div>
+
+                                    <div class="mul2">
+                                        <p class="fnts">angeldayle_22@yahoo.com</p>
+                                        <p class="fnts">Quezon City, Philippines</p>
+                                        <p class="fnts">09062874273</p>
+                                    </div>
+                            </div>  
+                            <div class="mor-info">
+                                <br>
+                                <a href="#">MORE INFO</a>
+                            </div>
+                        </div>
+
+                        <div class="sep2">
+                            <div class="content2">
+                                <form>
+                                    <input type="text" placeholder="Your Name" class="txtbox">
+                                    <input type="text" placeholder="Email" class="txtbox">
+                                    <input type="text" placeholder="Subject" class="txtbox">
+                                    <textarea name="" id="" cols="30" rows="10" spellcheck="false"></textarea>
+                                </form>
+                                <a href="#" class="chgText"><span>Send Message</span></a>
+                            </div>
+                        </div>                    
+                    </div>
+
+                </div>
+
+            <!-- SIDE MENU EXT -->
+            </div>
+            <div class="side-menu-ext">
+                <ul>
+                   <li><a href="#"> <i class="fab fa-facebook-square"></i> </a></li>
+                   <li> <a href="#"> <i class="fab fa-youtube-square"></i> </a></li>
+                   <li><a href="#"> <i class="fab fa-twitter-square"></i> </a></li>
+                   <li> <a href="#"> <i class="fab fa-github-square"></i> </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="footer-style">
+            <div class="divisions">
+                <div class="ques">
+                    <h1>Have a Questions?</h1>
+
+                    <div class="ques-style1">
+                        <div class="st1">
+                            <ul>
+                                <li><i class="fas fa-at"></i></li>
+                                <li><i class="fas fa-map-marked-alt"></i></li>
+                                <li><i class="fas fa-phone-alt"></i></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="st2">
+                            <ul>
+                                <li>a.ibanezpfst@gmail.com</li>
+                                <li style="flex-wrap: nowrap;">724 Kagawad Road Area B Batasan Quezon City</li>
+                                <li>+63 9062874273</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="ques-style2">  </div> -->
+                </div>
+
+                <div class="recent">
+                    <h1>Recents</h1>
+                    <div class="con1">
+                        <div class="sec1">
+                            <h3>SERVICE</h3>
+                            <div class="sec1-sub">
+                                <div class="sec-box">
+                                    <div class="sub-logo">
+                                        <P><i class="fas fa-layer-group"></i></P>
+                                        <p><i class="fas fa-mobile-alt"></i></i></p>
+                                        <P class="p_font"><i class="fas fa-search"></i></i></P>                      
+                                    </div>
+
+                                    <div class="sub-desc" >
+                                        <li><a href="#" >Graphic Design</a></li>
+                                        <li><a href="#">Mobile Design</a></li>
+                                        <li><a href="#">Research</a></li>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec2">
+                            <h3>WORKS</h3>
+                            <div class="sec2-box">
+                                <div class="sec2-sub">
+                                    <li><p><a href="#">Games Site</a></p></li>
+                                    <li><p><a href="#">Blog Site</a></p></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dlcv">
+                        <a href="resume/resume.docx" download="resume.docx"><span>Download CV</span></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+                <div class="links-style1">
+                    <div class="ls1">
+                        <p style="font-size:14px;">Created by : Miming Meow</p>
+                    </div>
+                </div>
+
+                <div class="links-style2">
+                    <div class="lst2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, perferendis laboriosam asperiores dolorem minus cum! Sit recusandae repellat, error mollitia doloribus tempora architecto, rem sunt at labore eligendi, reiciendis asperiores!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   
+
+<!-- TOGGLE FOR RESPONSIVE jquery -->
+   
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                $('.container').toggleClass('open');
+            })
+        })
+    </script>
+
+<script type="text/javascript">
+        $(window).on('scroll', function(){
+            // SIDE MENU LEFT FADING
+            if ($(window).scrollTop() > 0){
+                $('.side-menu-left ul').fadeIn(900);
+            } else {
+                $('.side-menu-left ul').fadeOut(500);
+            }
+
+            // BOX WORKS HERE
+              if ($(window).scrollTop() > 2200){
+                $('.box-works-2').fadeIn(2000);
+            }
+
+            //BOX CONTACTS HERE
+               if($(window).scrollTop() > 2700) {
+                  $('.contact-style .sep').fadeIn(2000);
+                }
+
+            //SIDE BOXES CHANGING
+            $('#GD').hover(function(){
+              $('.box2-change-gd').fadeToggle(300);
+            exit();
+             });
+
+             $('#II').hover(function(){
+              $('.box2-change-II').fadeToggle(300);
+            exit();
+             });
+
+             $('#SO').hover(function(){
+              $('.box2-change-SO').fadeToggle(300);
+            exit();
+             });
+
+             $('#AP').hover(function(){
+              $('.box2-change-AP').fadeToggle(300);
+            exit();
+             });
+        });
+
+      
+
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('.box1').fadeIn(2000);
+            } else {
+                $('.box1').fadeOut(800);
+            }
+        });
+        // $(window).on('scroll', function(){
+        //     var skill = $('.box-skills-style');
+        //     if ($(window).scrollTop() > 900) { 
+        //         $(window).off('scroll');               
+        //         skill.fadeIn(2000);    
+        //         $('.count').each(function(){
+        //             var c = $('.count');
+        //             $({ Counter: 0 }).animate({ Counter: c.text()}, {
+        //                 duration: 200,
+        //                 easing: 'swing',
+        //                 step: function () {
+        //                     c.text(Math.ceil(c.Counter) + '%');
+                        
+        //                 }
+        //             })
+        //         });
+        //     } 
+        // });   
+
+        // $(".count").counterUp({delay:11,time:3500});      
+       
+       
+        function startCounter() {
+                if ($(window).scrollTop() > 900) {
+                    $(window).off("scroll", startCounter);
+                    $('.box-skills-style').fadeIn(2000);
+                    $('.count').each(function () {
+                        var $this = $(this);
+                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                            duration: 5000,
+                            easing: 'swing',
+                            step: function () {
+                                $this.text(Math.ceil(this.Counter) + '%');
+                            }
+                        });
+                    });
+                }
+            };   
+        $(window).scroll(startCounter);
+      
+    </script>
+
+
+</body>
+</html>
